@@ -15,7 +15,6 @@
   <a href="#overview">Overview</a> •
   <a href="#live-demo">Live Demo</a> •
   <a href="#features">Features</a> •
-
   <a href="#app-usage">App Usage</a> •
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#installation">Installation</a> •
@@ -263,5 +262,6 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 Please open an issue or submit a pull request.
 
 Give a ⭐️ if you like this project!
+
 
 
