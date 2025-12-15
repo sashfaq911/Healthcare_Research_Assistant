@@ -1,9 +1,3 @@
-# rag.py
-"""
-Healthcare RAG engine with Trafilatura (URL) + PyPDFLoader (PDF).
-Compare mode removed.
-"""
-
 from uuid import uuid4
 from dotenv import load_dotenv
 from pathlib import Path
@@ -55,7 +49,7 @@ def initialize_components():
         vector_store = Chroma(
             collection_name=COLLECTION_NAME,
             embedding_function=ef,
-            persist_directory=str(VECTORSTORE_DIR)
+            # persist_directory=str(VECTORSTORE_DIR)     #removed for Streamlit-Cloud safe environments
         )
 
 # ---------- URL Loader (Trafilatura) ----------
@@ -255,3 +249,4 @@ def generate_extract(query: str):
 
 def init_now():
     initialize_components()
+
