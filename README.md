@@ -13,8 +13,9 @@
 
 <p align="center">
   <a href="#overview">Overview</a> •
-  <a href="#features">Features</a> •
   <a href="#live-demo">Live Demo</a> •
+  <a href="#features">Features</a> •
+
   <a href="#app-usage">App Usage</a> •
   <a href="#tech-stack">Tech Stack</a> •
   <a href="#installation">Installation</a> •
@@ -60,7 +61,10 @@ Users simply provide URLs or PDFs, and the system:
 - generates grounded answers, summaries, or extractions  
 - displays transparent citations and snippets  
 
-Built as a healthcare-focused extension of the Real Estate Analyst RAG app from the Codebasics Bootcamp, this project transforms scattered medical information into fast, trustworthy insights.
+## 🌐 Live Demo <a name="live-demo"></a>
+
+Would you like to give this app a try? The app is deployed on **Streamlit Cloud** and accessible here:  
+👉 **[Healthcare Research Assistant](https://healthcare-research-assistant.streamlit.app/)**
 
 
 ## ✨ Key Features <a name="features"></a>
@@ -88,12 +92,6 @@ Each response includes expandable evidence snippets and source URLs—critical f
 Automatically prevents medical advice generation, ensuring compliance with safe AI usage in healthcare settings.
 
 
-## 🌐 Live Demo <a name="live-demo"></a>
-
-Would you like to give this app a try? The app is deployed on **Streamlit Cloud** and accessible here:  
-👉 **[Healthcare Research Assistant](https://healthcare-research-assistant.streamlit.app/)**
-
-
 ## 🛠️ Tech Stack <a name="tech-stack"></a>
 ### **Frontend**
 - Streamlit (UI)
@@ -111,7 +109,8 @@ Would you like to give this app a try? The app is deployed on **Streamlit Cloud*
 #### **DevOps & Project Structure**
 - `.env` for secure API key management  
 - Organized directory structure with `resources/` for vectorstore and sample docs  
-- Deployed on Streamlit Cloud  
+- Deployed on Streamlit Cloud
+
 
 ## 🧠  How It Works <a name="app-usage"></a>
 
@@ -264,4 +263,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 Please open an issue or submit a pull request.
 
 Give a ⭐️ if you like this project!
+
 
