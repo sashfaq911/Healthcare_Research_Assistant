@@ -175,14 +175,16 @@ This ensures a smooth “*try now*” experience without needing external source
 Visual previews of the Healthcare Research Assistant in action:
 
 #### 🔹Load Demo Data Button
-![](screenshots/processing.png)
-
-#### 🔹Processing Complete
 ![](screenshots/processing_complete.png)
 
-#### 🔹Results View
-![](screenshots/results.png)
+#### 🔹Results View: Q & A
+![](screenshots/results_q&a.png)
 
+#### 🔹Results View: Summarize
+![](screenshots/results_summarize.png)
+
+#### 🔹Results View: Extract
+![](screenshots/results_extract.png)
 
 
 ## 📂 Project Structure
@@ -190,7 +192,7 @@ The project is organized for clarity, scalability, and ease of deployment:
 
 
 ```bash
-healthcare_research_assistant/
+Healthcare_Research_Assistant/
 │
 ├── .env                            # Environment variable API key
 ├── app.py                          # Streamlit UI
@@ -201,8 +203,9 @@ healthcare_research_assistant/
 │
 ├── screenshots/                    # Folder containing app visuals
 │   ├── home.png
-│   ├── results.png
-│   ├── processing.png
+│   ├── results_q&a.png
+│   ├── results_summarize.png
+│   ├── results_extract.png
 │   ├── processing_complete.png
 │
 ├── requirements.txt                # Dependencies
@@ -261,3 +264,4 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 Please open an issue or submit a pull request.
 
 Give a ⭐️ if you like this project!
+
