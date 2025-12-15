@@ -36,7 +36,7 @@ An AI-Powered Retrieval-Augmented Generation (RAG) Application for Healthcare Kn
 
 The **Healthcare Research Assistant** is an AI-powered Retrieval-Augmented Generation (RAG) tool designed to help users explore healthcare information quickly and reliably. By combining document ingestion, vector search, and LLM reasoning, the app can analyze clinical articles, guidelines, and research PDFs—producing grounded answers, summaries, and structured insights with clear evidence citations.
 
-Inspired by the Real Estate Analyst RAG App built during the Codebasics GenAI Bootcamp, this project extends those concepts into a high-impact healthcare use case, aligning AI capabilities with the needs of modern healthcare analytics.
+Inspired by the **[Real Estate Analyst](https://github.com/sashfaq911/Real_Estate_Analyst)** RAG App built during the Codebasics GenAI & Data Science Bootcamp, this project extends those concepts into a high-impact healthcare use case, aligning AI capabilities with the needs of modern healthcare analytics.
 
 ## ❗ Problem Statement
 
@@ -262,6 +262,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 Please open an issue or submit a pull request.
 
 Give a ⭐️ if you like this project!
+
 
 
 
